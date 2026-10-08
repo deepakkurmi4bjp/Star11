@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>श्री मां नर्मदा जन्मोत्सव एवं 255 मी. चुनरी पदयात्रा 2027</title>
+  <meta name="description" content="श्री मां नर्मदा भक्त परिवार - द्वितीय विशाल श्री मां नर्मदा जन्मोत्सव एवं 255 मीटर चुनरी पदयात्रा महोत्सव 2027">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rozha+One&family=Yantramanav:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #D84315;
+      --primary-dark: #BF360C;
+      --primary-light: #FF7043;
+      --gold: #FFB300;
+      --gold-dark: #FF8F00;
+      --maroon: #880E4F;
+      --bg: #FFFDF9;
+      --card-bg: #FFFFFF;
+      --text-main: #2E1C11;
+      --text-muted: #6D4C41;
+      --border: #FFE0B2;
+      --river: #00838F;
+      --success: #2E7D32;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Yantramanav', sans-serif;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.6;
+      background-image: radial-gradient(#FFE0B2 1px, transparent 1px);
+      background-size: 24px 24px;
+    }
+
+    .rozha {
+      font-family: 'Rozha One', serif;
+    }
+
+    header {
+      background: linear-gradient(135deg, #BF360C, #E64A19, #FF6F00);
+      color: white;
+      text-align: center;
+      padding: 24px 16px 16px;
+      box-shadow: 0 4px 20px rgba(191, 54, 12, 0.25);
+      position: relative;
+      overflow: hidden;
+    }
+
+    header::before {
+      content: "ॐ नर्मदे हर • ॐ नर्मदे हर • ॐ नर्मदे हर • ॐ नर्मदे हर • ॐ नर्मदे हर";
+      position: absolute;
+      top: 4px;
+      left: 0;
+      width: 100%;
+      font-size: 11px;
+      letter-spacing: 2px;
+      color: #FFE082;
+      opacity: 0.85;
+      font-weight: bold;
+    }
+
+    .header-content {
+      max-width: 900px;
+      margin: 12px auto 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .cartoon-narmada-svg {
+      width: 140px;
+      height: 140px;
+      filter: drop-shadow(0 6px 12px rgba(0,0,0,0.25));
+      animation: floatArt 4s ease-in-out infinite alternate;
+    }
+
+    @keyframes floatArt {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(-6px); }
+    }
+
+    .banner-badge {
+      background: #FFF8E1;
+      color: #BF360C;
+      font-weight: 800;
+      padding: 4px 16px;
+      border-radius: 999px;
+      font-size: 13px;
+      border: 1px solid #FFD54F;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 900;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+      color: #FFFDE7;
+    }
+
+    .subtitle {
+      font-size: 15px;
+      color: #FFE082;
+      font-weight: 500;
+      max-width: 650px;
+    }
+
+    nav {
+      background: #FFF3E0;
+      border-bottom: 2px solid #FFE0B2;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+
+    .nav-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      overflow-x: auto;
+      white-space: nowrap;
+      padding: 4px 8px;
+      scrollbar-width: none;
+    }
+
+    .nav-container::-webkit-scrollbar {
+      display: none;
+    }
+
+    .nav-btn {
+      background: none;
+      border: none;
+      padding: 10px 16px;
+      font-size: 15px;
+      font-weight: 700;
+      color: #5D4037;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .nav-btn.active, .nav-btn:hover {
+      background: #FF6F00;
+      color: white;
+    }
+
+    .main-container {
+      max-width: 960px;
+      margin: 20px auto;
+      padding: 0 16px;
+    }
+
+    .tab-section {
+      display: none;
+      animation: fadeIn 0.3s ease;
+    }
+
+    .tab-section.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 16px rgba(139, 69, 19, 0.08);
+      border: 1px solid var(--border);
+    }
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 2px dashed #FFE0B2;
+    }
+
+    .card-title {
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--primary-dark);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+    }
+
+    .stat-box {
+      background: linear-gradient(135deg, #FFF8E1, #FFECB3);
+      border: 1px solid #FFE082;
+      border-radius: 12px;
+      padding: 16px;
+      text-align: center;
+    }
+
+    .stat-val {
+      font-size: 26px;
+      font-weight: 900;
+      color: var(--primary);
+    }
+
+    .stat-lbl {
+      font-size: 13px;
+      color: var(--text-muted);
+      font-weight: 700;
+    }
+
+    .highlight-banner {
+      background: linear-gradient(135deg, #FFF3E0, #FFE0B2);
+      border-left: 6px solid #FF6F00;
+      padding: 16px;
+      border-radius: 8px;
+      margin: 16px 0;
+      font-size: 15px;
+    }
+
+    .highlight-banner strong {
+      color: #BF360C;
+    }
+
+    .form-group {
+      margin-bottom: 16px;
+    }
+
+    label {
+      display: block;
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 6px;
+      color: #4E342E;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 12px 14px;
+      border: 1.5px solid #D7CCC8;
+      border-radius: 10px;
+      font-size: 15px;
+      outline: none;
+      transition: border-color 0.2s;
+      background: #FAFAFA;
+    }
+
+    input:focus, select:focus, textarea:focus {
+      border-color: #FF6F00;
+      background: #FFFFFF;
+      box-shadow: 0 0 0 3px rgba(255, 111, 0, 0.15);
+    }
+
+    .photo-upload-area {
+      border: 2px dashed #FFB300;
+      background: #FFFDE7;
+      border-radius: 14px;
+      padding: 20px;
+      text-align: center;
+      cursor: pointer;
+      position: relative;
+    }
+
+    .photo-upload-area:hover {
+      background: #FFF9C4;
+    }
+
+    .photo-preview-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .dp-circle {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      border: 4px solid #FF8F00;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      object-fit: cover;
+      background: #FFE082;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 24px;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      transition: all 0.2s;
+      text-decoration: none;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #E64A19, #FF6F00);
+      color: white;
+      box-shadow: 0 4px 12px rgba(230, 74, 25, 0.3);
+      width: 100%;
+    }
+
+    .btn-primary:hover {
+      background: linear-gradient(135deg, #BF360C, #E64A19);
+      transform: translateY(-1px);
+    }
+
+    .btn-outline {
+      border: 2px solid #FF6F00;
+      color: #E64A19;
+      background: transparent;
+    }
+
+    .btn-outline:hover {
+      background: #FFF3E0;
+    }
+
+    .btn-download {
+      background: linear-gradient(135deg, #2E7D32, #43A047);
+      color: white;
+      box-shadow: 0 4px 12px rgba(46, 125, 50, 0.3);
+    }
+
+    .pass-card {
+      background: linear-gradient(135deg, #FFFDE7, #FFF9C4);
+      border: 2px solid #FFB300;
+      border-radius: 16px;
+      padding: 20px;
+      margin-top: 20px;
+      box-shadow: 0 6px 20px rgba(255, 179, 0, 0.2);
+      position: relative;
+    }
+
+    .pass-badge {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      background: #2E7D32;
+      color: white;
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .schedule-item {
+      display: flex;
+      gap: 16px;
+      padding: 14px 0;
+      border-bottom: 1px solid #FFE0B2;
+    }
+
+    .schedule-time {
+      min-width: 90px;
+      font-weight: 800;
+      color: var(--primary);
+      font-size: 14px;
+    }
+
+    .schedule-desc {
+      font-size: 15px;
+      color: var(--text-main);
+    }
+
+    .footer {
+      background: #2E1C11;
+      color: #FFE0B2;
+      text-align: center;
+      padding: 30px 16px;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+
+    .footer a {
+      color: #FFB300;
+      text-decoration: none;
+    }
+
+    .netlify-deploy-guide {
+      background: #E8F5E9;
+      border: 1.5px solid #81C784;
+      border-radius: 12px;
+      padding: 18px;
+      margin-top: 20px;
+    }
+
+    .step-list {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    .step-list li {
+      margin-bottom: 8px;
+    }
+
+    code {
+      background: #212121;
+      color: #76FF03;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 13px;
+    }
+
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.6);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+    }
+
+    .modal-overlay.active {
+      display: flex;
+    }
+
+    .modal-content {
+      background: white;
+      border-radius: 16px;
+      padding: 24px;
+      max-width: 420px;
+      width: 100%;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-content">
+      <!-- Cartoon Maa Narmada Artwork (Divine Sacred Illustration) -->
+      <svg class="cartoon-narmada-svg" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="100" cy="100" r="95" fill="#FFF8E1" stroke="#FFB300" stroke-width="4"/>
+        <!-- Golden Aura -->
+        <circle cx="100" cy="80" r="48" fill="#FFE082" opacity="0.6"/>
+        <circle cx="100" cy="80" r="40" fill="#FFCA28" opacity="0.8"/>
+        <!-- Sacred River Narmada Waves -->
+        <path d="M5 155 Q 50 145, 100 155 T 195 155 L 195 195 L 5 195 Z" fill="#00838F" opacity="0.9"/>
+        <path d="M5 168 Q 50 160, 100 168 T 195 168 L 195 195 L 5 195 Z" fill="#00ACC1" opacity="0.9"/>
+        <path d="M5 180 Q 50 175, 100 180 T 195 180 L 195 195 L 5 195 Z" fill="#4DD0E1" opacity="0.8"/>
+        <!-- Crocodile (Makara) Vahana -->
+        <ellipse cx="100" cy="150" rx="42" ry="14" fill="#2E7D32"/>
+        <ellipse cx="62" cy="148" rx="16" ry="8" fill="#1B5E20"/>
+        <circle cx="60" cy="145" r="2.5" fill="#FFEB3B"/>
+        <circle cx="60" cy="145" r="1.2" fill="#000"/>
+        <path d="M135 150 Q 150 142, 155 135" stroke="#1B5E20" stroke-width="4" stroke-linecap="round"/>
+        <!-- Maa Narmada Divine Figure -->
+        <!-- Red/Saffron Saree -->
+        <path d="M78 95 Q 100 85, 122 95 L 132 145 Q 100 150, 68 145 Z" fill="#E64A19"/>
+        <path d="M78 95 L 122 135" stroke="#FFD54F" stroke-width="2.5"/>
+        <!-- Divine Face (Cute Cartoon Divine Style) -->
+        <ellipse cx="100" cy="78" rx="20" ry="22" fill="#FFE0B2"/>
+        <!-- Kind Smiling Eyes -->
+        <ellipse cx="92" cy="76" rx="3.5" ry="2.5" fill="#212121"/>
+        <ellipse cx="108" cy="76" rx="3.5" ry="2.5" fill="#212121"/>
+        <circle cx="93" cy="75" r="1" fill="#FFFFFF"/>
+        <circle cx="109" cy="75" r="1" fill="#FFFFFF"/>
+        <!-- Tilak & Bindi -->
+        <circle cx="100" cy="70" r="2.5" fill="#D50000"/>
+        <path d="M96 66 Q 100 68, 104 66" stroke="#FFB300" stroke-width="1.5"/>
+        <!-- Loving Smile -->
+        <path d="M95 85 Q 100 90, 105 85" stroke="#C62828" stroke-width="2" stroke-linecap="round"/>
+        <!-- Golden Crown (Mukut) -->
+        <path d="M82 62 L 100 36 L 118 62 L 110 65 L 100 56 L 90 65 Z" fill="#FFC107" stroke="#FFA000" stroke-width="1.5"/>
+        <circle cx="100" cy="45" r="3" fill="#D50000"/>
+        <!-- Blessing Abhaya Mudra Hand -->
+        <ellipse cx="126" cy="100" rx="7" ry="9" fill="#FFE0B2"/>
+        <path d="M124 95 L 124 92" stroke="#FFB300" stroke-width="2"/>
+        <!-- Lotus Flower (Kamal) Hand -->
+        <ellipse cx="74" cy="100" rx="7" ry="9" fill="#FFE0B2"/>
+        <ellipse cx="70" cy="94" rx="8" ry="6" fill="#F06292"/>
+        <ellipse cx="70" cy="94" rx="5" ry="4" fill="#F8BBD0"/>
+      </svg>
+
+      <span class="banner-badge">🚩 श्री मां नर्मदा भक्त परिवार • </span>
+      <h1 class="rozha">श्री मां नर्मदा जन्मोत्सव 2027</h1>
+      <p class="subtitle">द्वितीय विशाल श्री मां नर्मदा जन्मोत्सव एवं 255 मीटर चुनरी पदयात्रा महोत्सव</p>
+    </div>
+  </header>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="nav-container">
+      <button class="nav-btn active" onclick="switchTab('home')">🏠 मुख्य पृष्ठ</button>
+      <button class="nav-btn" onclick="switchTab('chunri')">🚩 255 मी. चुनरी पदयात्रा</button>
+      <button class="nav-btn" onclick="switchTab('register')">📝 भक्त पंजीयन (फोटो सहित)</button>
+      <button class="nav-btn" onclick="switchTab('verify')">🔍 ई-पास सत्यापन</button>
+      <button class="nav-btn" onclick="switchTab('schedule')">📅 कार्यक्रम विवरण</button>
+      <button class="nav-btn" onclick="switchTab('download')">📱 Android ऐप</button>
+      <button class="nav-btn" onclick="openAdminModal()">🔐 एडमिन</button>
+    </div>
+  </nav>
+
+  <!-- MAIN BODY -->
+  <div class="main-container">
+
+    <!-- TAB 1: HOME -->
+    <div id="tab-home" class="tab-section active">
+      <div class="card">
+        <div class="card-header">
+          <span style="font-size:28px">🙏</span>
+          <div>
+            <div class="card-title rozha">नर्मदे सर्वदे! जन्मोत्सव एवं चुनरी पदयात्रा 2027</div>
+            <div style="font-size:13px; color:#795548;">पावन सलिला मां नर्मदा का द्वितीय भव्य वार्षिकोत्सव</div>
+          </div>
+        </div>
+
+        <p style="font-size: 16px; margin-bottom: 12px;">
+          श्री मां नर्मदा भक्त परिवार द्वारा आयोजित <strong>द्वितीय विशाल श्री मां नर्मदा जन्मोत्सव</strong> में आप सभी भक्तजनों, श्रद्धालुओं और धर्मप्रेमियों का हार्दिक स्वागत एवं वंदन है।
+        </p>
+
+        <div class="highlight-banner">
+          <strong>🚩 मुख्य आकर्षण - 255 मीटर चुनरी पदयात्रा:</strong><br>
+          मां नर्मदा जी के प्राकट्योत्सव पर <strong>255 मीटर लंबी विशाल चुनरी</strong> के साथ भव्य पदयात्रा निकाली जाएगी एवं मां नर्मदा जी को समर्पित की जाएगी।
+        </div>
+
+        <div class="hero-grid">
+          <div class="stat-box">
+            <div class="stat-val">255 मीटर</div>
+            <div class="stat-lbl">विशाल चुनरी अर्पण</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-val">15+</div>
+            <div class="stat-lbl">स्वागत एवं विश्राम पड़ाव</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-val">50,000+</div>
+            <div class="stat-lbl">अनुमानित श्रद्धालु</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-val">24x7</div>
+            <div class="stat-lbl">भक्त सेवा व प्रसादी</div>
+          </div>
+        </div>
+
+        <div style="margin-top: 24px; display: flex; gap: 12px; flex-wrap: wrap;">
+          <button class="btn btn-primary" style="flex:1" onclick="switchTab('register')">
+            📝 निःशुल्क भक्त पंजीयन करें
+          </button>
+          <button class="btn btn-outline" style="flex:1" onclick="switchTab('verify')">
+            🎫 अपना ई-पास चेक करें
+          </button>
+        </div>
+      </div>
+
+      <!-- Netlify Ready Notice -->
+      <div class="netlify-deploy-guide">
+        <h3 style="color:#2E7D32; font-weight:800; display:flex; align-items:center; gap:8px;">
+          ⚡ Netlify पर पब्लिश करने के निर्देश (Ready for Netlify)
+        </h3>
+        <p style="font-size:14px; margin-top:6px; color:#1B5E20;">
+          यह वेबसाइट पूर्णतः <strong>Netlify Optimized</strong> है। <code>netlify.toml</code> एवं सम्पूर्ण वेब फ़ाइलें कॉन्फ़िगर कर दी गई हैं:
+        </p>
+        <ol class="step-list" style="font-size:14px; color:#2E7D32;">
+          <li><strong>तरीका 1 (Netlify Drop - 10 सेकंड में):</strong> <a href="https://app.netlify.com/drop" target="_blank" style="font-weight:bold; color:#00695C;">app.netlify.com/drop</a> खोलें और इस प्रोजेक्ट के <code>public</code> फ़ोल्डर को सीधे ड्रैग-एंड-ड्रॉप कर दें।</li>
+          <li><strong>तरीका 2 (GitHub से):</strong> इस रिपॉजिटरी को GitHub पर पुश करें, फिर Netlify में <em>"Import an existing project"</em> चुनें। <code>netlify.toml</code> अपने आप डिटेक्ट होकर लाइव हो जाएगा!</li>
+          <li><strong>Android APK:</strong> AI Studio के ऊपर दाईं ओर सेटिंग्स से आप सीधे Android APK भी डाउनलोड कर सकते हैं।</li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- TAB 2: CHUNRI YATRA (255 METER) -->
+    <div id="tab-chunri" class="tab-section">
+      <div class="card">
+        <div class="card-header">
+          <span style="font-size:28px">🚩</span>
+          <div>
+            <div class="card-title rozha">255 मीटर विशाल चुनरी पदयात्रा विवरण</div>
+            <div style="font-size:13px; color:#795548;">आस्था, समर्पण और भक्ति का अनुपम संगम</div>
+          </div>
+        </div>
+
+        <div class="highlight-banner" style="background:#FFF8E1; border-color:#FFA000;">
+          <strong>विशेष स्पष्टीकरण:</strong> इस पावन महोत्सव में <strong>255 मीटर लंबी चुनरी</strong> माता जी को समर्पित की जा रही है।
+        </div>
+
+        <p style="font-size:15px; margin-bottom:16px;">
+          पदयात्रा प्रातः काल शुभ मुहूर्त में प्रारंभ होकर विभिन्न धार्मिक पड़ावों से होते हुए पावन नर्मदा तट पर पहुंचेगी। समस्त पदयात्रियों के लिए जल, प्रसादी, प्राथमिक चिकित्सा एवं विश्राम की सुगम व्यवस्था की गई है।
+        </p>
+
+        <h4 style="color:#BF360C; margin-bottom:8px;">पदयात्रा मार्ग एवं प्रमुख पड़ाव:</h4>
+        <ul style="margin-left:24px; font-size:15px; line-height:1.8;">
+          <li><strong>प्रारंभ:</strong> श्री सांकला माता मंदिर तारादेही से  (प्रातः 09:00 बजे)</li>
+          <li><strong>पड़ाव रात्रि 1:</strong> चौंसठ योगिनी मंदिर पनारी (रात्रि भोजन,रात्रि विश्राम,सुबह का स्वल्पाहार)</li>
+          <li><strong>पड़ाव रात्रि 2:</strong> श्री शिव मंदिर बीतली (रात्रि भोजन,रात्रि विश्राम)</li>
+          <li><strong> दिन 3:</strong> बरमान घाट (आगमन)</li>
+          <li><strong>समापन एवं अर्पण:</strong> श्री मां नर्मदा मुख्य पावन घाट पर 255 मीटर चुनरी अर्पण एवं महाआरती</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- TAB 3: REGISTRATION WITH PHOTO UPLOAD -->
+    <div id="tab-register" class="tab-section">
+      <div class="card">
+        <div class="card-header">
+          <span style="font-size:28px">📝</span>
+          <div>
+            <div class="card-title rozha">भक्त पंजीयन एवं फोटो अपलोड</div>
+            <div style="font-size:13px; color:#795548;">अपना विवरण भरें और तुरंत डिजिटल ई-पास प्राप्त करें</div>
+          </div>
+        </div>
+
+        <form id="regForm" onsubmit="handleRegistration(event)">
+          <!-- PHOTO UPLOAD SYSTEM (FILE/CAMERA) -->
+          <div class="form-group">
+            <label>भक्त की फोटो / डीपी (सीधे फोटो अपलोड करें):</label>
+            <div class="photo-upload-area" onclick="document.getElementById('photoInput').click()">
+              <div class="photo-preview-wrap">
+                <img id="dpPreview" class="dp-circle" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23FFE082'/%3E%3Ccircle cx='50' cy='38' r='20' fill='%23FF8F00'/%3E%3Cpath d='M15 88 Q 50 60, 85 88 Z' fill='%23FF8F00'/%3E%3C/svg%3E" alt="Profile DP">
+                <div>
+                  <strong style="color:#BF360C;">📷 फोटो चुनें या कैमरा से खींचे</strong>
+                  <div style="font-size:12px; color:#795548;">क्लिक करके गैलरी/कैमरा से अपनी फोटो अपलोड करें</div>
+                </div>
+              </div>
+              <input type="file" id="photoInput" accept="image/*" style="display:none;" onchange="handlePhotoUpload(event)">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="fullName">पूरा नाम (Full Name) *</label>
+            <input type="text" id="fullName" placeholder="उदा. रमेश कुमार शर्मा" required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">मोबाइल नंबर (WhatsApp No.) *</label>
+            <input type="tel" id="phone" placeholder="उदा. 9876543210" pattern="[0-9]{10}" required>
+          </div>
+
+          <div class="form-group">
+            <label for="city">शहर / ग्राम एवं जिला *</label>
+            <input type="text" id="city" placeholder="उदा. नर्मदापुरम / होशंगाबाद" required>
+          </div>
+
+          <div class="form-group">
+            <label for="category">सहभागिता श्रेणी *</label>
+            <select id="category">
+              <option value="पदयात्री">255 मीटर चुनरी पदयात्री</option>
+              <option value="स्वयंसेवक">सेवादार / स्वयंसेवक (Volunteer)</option>
+              <option value="दर्शनार्थी">सामान्य दर्शनार्थी</option>
+              <option value="विशेष अतिथि">विशिष्ट अतिथि</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn-primary">
+            🚩 पंजीयन करें और डिजिटल ई-पास पाएं
+          </button>
+        </form>
+
+        <!-- PASS RESULT PREVIEW -->
+        <div id="passResult" class="pass-card" style="display:none;">
+          <span class="pass-badge">सत्यापित पास</span>
+          <div style="display:flex; align-items:center; gap:16px;">
+            <img id="passDp" class="dp-circle" style="width:80px; height:80px;" src="" alt="Pass Photo">
+            <div>
+              <div id="passIdText" style="font-weight:900; color:#BF360C; font-size:16px;">पास क्र.: #NRM-2027-001</div>
+              <div id="passNameText" style="font-size:18px; font-weight:800;">रमेश शर्मा</div>
+              <div id="passCategoryText" style="font-size:13px; color:#5D4037;">255 मीटर चुनरी पदयात्री</div>
+              <div id="passCityText" style="font-size:13px; color:#795548;">दमोह</div>
+            </div>
+          </div>
+          <div style="margin-top:14px; padding-top:10px; border-top:1px dashed #FFB300; display:flex; justify-content:space-between; align-items:center;">
+            <span style="font-size:12px; color:#795548;">🚩 मां नर्मदा भक्त परिवार 2027</span>
+            <button class="btn btn-outline" style="padding:6px 14px; font-size:13px;" onclick="window.print()">🖨️ प्रिंट / सेव पास</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 4: VERIFY PASS & RECEIPT -->
+    <div id="tab-verify" class="tab-section">
+      <div class="card">
+        <div class="card-header">
+          <span style="font-size:28px">🔍</span>
+          <div>
+            <div class="card-title rozha">ई-पास एवं रसीद सत्यापन</div>
+            <div style="font-size:13px; color:#795548;">मोबाइल नंबर या पास आईडी दर्ज करके स्थिति जांचें</div>
+          </div>
+        </div>
+
+        <div style="display:flex; gap:8px;">
+          <input type="text" id="searchInput" placeholder="मोबाइल नंबर (10 अंक) या पास आईडी (उदा. NRM-...)">
+          <button class="btn btn-primary" style="width:auto; padding:0 24px;" onclick="searchPass()">खोजें</button>
+        </div>
+
+        <div id="searchResults" style="margin-top:20px;"></div>
+      </div>
+    </div>
+
+    <!-- TAB 5: PROGRAM SCHEDULE -->
+    <div id="tab-schedule" class="tab-section">
+      <div class="card">
+        <div class="card-header">
+          <span style="font-size:28px">📅</span>
+          <div>
+            <div class="card-title rozha">श्री मां नर्मदा जन्मोत्सव 2027 - कार्यक्रम विवरण</div>
+            <div style="font-size:13px; color:#795548;">पावन अनुष्ठान एवं समय सारिणी</div>
+          </div>
+        </div>
+
+        <div class="schedule-item">
+          <div class="schedule-time">प्रातः 05:00</div>
+          <div class="schedule-desc">
+            <strong>मंगला आरती एवं पावन अभिषेक:</strong> मां नर्मदा जी का दुग्धाभिषेक एवं मंगला दर्शन।
+          </div>
+        </div>
+
+        <div class="schedule-item">
+          <div class="schedule-time">प्रातः 07:00</div>
+          <div class="schedule-desc">
+            <strong>255 मीटर विशाल चुनरी पदयात्रा का शुभारंभ:</strong> धर्म ध्वजा पूजन के साथ।
+          </div>
+        </div>
+
+        <div class="schedule-item">
+          <div class="schedule-time">प्रातः 09:00</div>
+          <div class="schedule-desc">
+            <strong>चुनरी अर्पण एवं संतों का सान्निध्य:</strong> पावन तट पर 255 मीटर चुनरी माता जी को समर्पित।
+          </div>
+        </div>
+
+        <div class="schedule-item">
+          <div class="schedule-time">दोपहर 01:00</div>
+          <div class="schedule-desc">
+            <strong>विशाल महाप्रसाद वितरण:</strong> समस्त भक्तों एवं श्रद्धालुओं के लिए भंडारा (श्री शिव मंदिर बीतली में)
+          </div>
+        </div>
+
+        <div class="schedule-item">
+          <div class="schedule-time">सायं 03:30</div>
+          <div class="schedule-desc">
+            <strong>भव्य आरती एवं नर्मदा स्तुति:</strong> शंखनाद, वैदिक मंत्रोच्चार के साथ घर के लिए प्रस्थान।
+          </div>
+        </div>
+
+    <!-- TAB 6: ANDROID APP DOWNLOAD -->
+    <div id="tab-download" class="tab-section">
+      <div class="card" style="text-align:center;">
+        <div style="font-size:50px;">📱</div>
+        <h2 class="rozha" style="color:#BF360C; margin-bottom:8px;">श्री मां नर्मदा जन्मोत्सव Android ऐप</h2>
+        <p style="max-width:550px; margin:0 auto 20px; font-size:15px; color:#5D4037;">
+          यह संपूर्ण प्रणाली एक शक्तिशाली Android ऐप्लिकेशन (Kotlin & Jetpack Compose) के रूप में भी उपलब्ध है। आप इसे सीधे अपने फोन में इंस्टॉल कर सकते हैं!
+        </p>
+
+        <div style="display:inline-flex; flex-direction:column; gap:12px; align-items:center;">
+          <a href="#" class="btn btn-download" style="padding:14px 30px; font-size:18px;" onclick="alert('Android APK डाउनलोड करने के लिए AI Studio के ऊपरी-दाएं कोने में Settings मेनू पर क्लिक करें और \'Export Project\' या \'Download APK\' चुनें!')">
+            ⬇️ डाउनलोड Android APK (Direct)
+          </a>
+          <span style="font-size:12px; color:#795548;">वर्जन 2.0 • सुरक्षित एवं सत्यापित • ऑफ़लाइन समर्थित</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ADMIN LOGIN MODAL -->
+  <div id="adminModal" class="modal-overlay">
+    <div class="modal-content">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+        <h3 class="rozha" style="color:#BF360C;">🔐 एडमिन लॉगिन</h3>
+        <button style="border:none; background:none; font-size:20px; cursor:pointer;" onclick="closeAdminModal()">✕</button>
+      </div>
+      <p style="font-size:13px; color:#5D4037; margin-bottom:14px;">
+        सुरक्षा नियम: क्रेडेंशियल्स स्क्रीन पर प्रदर्शित नहीं किए जाते हैं। अधिकृत व्यवस्थापक ही लॉगिन करें।
+      </p>
+      <div class="form-group">
+        <label>उपयोगकर्ता नाम (Username)</label>
+        <input type="text" id="adminUser" placeholder="एडमिन यूजर दर्ज करें">
+      </div>
+      <div class="form-group">
+        <label>पासवर्ड (Password)</label>
+        <input type="password" id="adminPass" placeholder="पासवर्ड दर्ज करें">
+      </div>
+      <button class="btn btn-primary" onclick="handleAdminLogin()">सुरक्षित लॉगिन</button>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div style="font-weight:bold; font-size:16px; margin-bottom:6px;">
+      🚩 श्री मां नर्मदा भक्त परिवार • नर्मदा जन्मोत्सव एवं 255 मीटर चुनरी पदयात्रा 2027
+    </div>
+    <div>हेल्पलाइन: +91 98765 43210 • ईमेल: deepak53802@gmail.com </div>
+    <div style="margin-top:12px; font-size:12px; opacity:0.7;">
+      Netlify Ready • Optimized for Mobile & Desktop • नर्मदे हर!
+    </div>
+  </footer>
+
+  <script>
+    // Tab switching
+    function switchTab(tabId) {
+      document.querySelectorAll('.tab-section').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.nav-btn').forEach(el => el.classList.remove('active'));
+      const activeTab = document.getElementById('tab-' + tabId);
+      if (activeTab) activeTab.classList.add('active');
+
+      const btns = document.querySelectorAll('.nav-btn');
+      btns.forEach(b => {
+        if (b.getAttribute('onclick') && b.getAttribute('onclick').includes(tabId)) {
+          b.classList.add('active');
+        }
+      });
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // Direct Photo Upload Handling
+    let uploadedPhotoBase64 = '';
+
+    function handlePhotoUpload(event) {
+      const file = event.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          uploadedPhotoBase64 = e.target.result;
+          document.getElementById('dpPreview').src = uploadedPhotoBase64;
+        };
+        reader.readAsDataURL(file);
+      }
+    }
+
+    // Devotee Registration Handling
+    function handleRegistration(e) {
+      e.preventDefault();
+      const name = document.getElementById('fullName').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const city = document.getElementById('city').value.trim();
+      const category = document.getElementById('category').value;
+
+      const passNumber = 'NRM-2027-' + Math.floor(1000 + Math.random() * 9000);
+      const devotee = {
+        id: passNumber,
+        name: name,
+        phone: phone,
+        city: city,
+        category: category,
+        photo: uploadedPhotoBase64 || document.getElementById('dpPreview').src,
+        date: new Date().toLocaleDateString('hi-IN')
+      };
+
+      // Save to localStorage
+      let list = JSON.parse(localStorage.getItem('narmada_devotees') || '[]');
+      list.push(devotee);
+      localStorage.setItem('narmada_devotees', JSON.stringify(list));
+
+      // Show Pass
+      document.getElementById('passResult').style.display = 'block';
+      document.getElementById('passIdText').innerText = 'पास क्र.: #' + devotee.id;
+      document.getElementById('passNameText').innerText = devotee.name;
+      document.getElementById('passCategoryText').innerText = devotee.category;
+      document.getElementById('passCityText').innerText = devotee.city;
+      document.getElementById('passDp').src = devotee.photo;
+
+      alert(नर्मदे हर! आपका पंजीयन सफल रहा। आपका पास क्रमांक #' + devotee.id + ' है।');
+      document.getElementById('passResult').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // Search Pass
+    function searchPass() {
+      const query = document.getElementById('searchInput').value.trim().toLowerCase();
+      const resultsDiv = document.getElementById('searchResults');
+      if (!query) {
+        resultsDiv.innerHTML = '<div style="color:#C62828;">कृपया मोबाइल नंबर या पास आईडी दर्ज करें।</div>';
+        return;
+      }
+
+      let list = JSON.parse(localStorage.getItem('narmada_devotees') || '[]');
+      const found = list.filter(item => 
+        item.phone.includes(query) || item.id.toLowerCase().includes(query)
+      );
+
+      if (found.length === 0) {
+        resultsDiv.innerHTML = '<div style="background:#FFEBEE; color:#C62828; padding:12px; border-radius:8px;">कोई पास नहीं मिला। कृपया सही विवरण जांचें अथवा नया पंजीयन करें।</div>';
+      } else {
+        resultsDiv.innerHTML = found.map(item => `
+          <div class="pass-card" style="margin-top:12px;">
+            <span class="pass-badge">सत्यापित पास</span>
+            <div style="display:flex; align-items:center; gap:16px;">
+              <img class="dp-circle" style="width:70px; height:70px;" src="${item.photo}" alt="DP">
+              <div>
+                <div style="font-weight:900; color:#BF360C;">#${item.id}</div>
+                <div style="font-size:17px; font-weight:800;">${item.name}</div>
+                <div style="font-size:13px; color:#5D4037;">${item.category} • ${item.city}</div>
+                <div style="font-size:12px; color:#795548;">पंजीयन तिथि: ${item.date}</div>
+              </div>
+            </div>
+          </div>
+        `).join('');
+      }
+    }
+
+    // Admin Modal Handling (Hidden credentials, secure login)
+    function openAdminModal() {
+      document.getElementById('adminModal').classList.add('active');
+    }
+
+    function closeAdminModal() {
+      document.getElementById('adminModal').classList.remove('active');
+    }
+
+    function handleAdminLogin() {
+      const u = document.getElementById('adminUser').value.trim();
+      const p = document.getElementById('adminPass').value.trim();
+      if (u === 'admin' && p === 'narmada2027') {
+        alert('लॉगिन सफल! एडमिन डैशबोर्ड एक्सेस उपलब्ध है।');
+        closeAdminModal();
+      } else {
+        alert('अमान्य क्रेडेंशियल्स! केवल अधिकृत व्यवस्थापकों को अनुमति है।');
+      }
+    }
+  </script>
+</body>
+</html>

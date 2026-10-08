@@ -1,0 +1,16 @@
+{
+  "short_name": "मां नर्मदा उत्सव",
+  "name": "श्री मां नर्मदा जन्मोत्सव एवं 255 मी. चुनरी पदयात्रा 2027",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#FFF8F0",
+  "theme_color": "#FF6F00",
+  "display": "standalone",
+  "orientation": "portrait"
+}

@@ -16,12 +16,10 @@ data class Devotee(
     val altMobileNumber: String = "",
     val address: String = "",
     val village: String = "",
-    val post: String = "",
     val gramPanchayat: String = "",
     val tehsil: String = "",
     val district: String = "",
     val state: String = "मध्य प्रदेश",
-    val pinCode: String = "",
     val emergencyContactName: String = "",
     val emergencyContactNumber: String = "",
     val emergencyRelationship: String = "",
@@ -58,7 +56,7 @@ data class PassItem(
     val devoteeName: String,
     val category: String, // सामान्य भक्त पास, परिवार पास, विशेष अतिथि पास, VIP / VVIP पास, स्वयंसेवक पास, वाहन पास
     val seatNumber: String = "",
-    val venue: String = "मुख्य पंडाल (नर्मदा तट)",
+    val venue: String = "प्रथम जोन (महिलाएं/कन्याएं)",
     val section: String = "",
     val row: String = "",
     val validDate: String = "11-13 फ़रवरी 2027",
@@ -71,7 +69,7 @@ data class PassItem(
 @Entity(tableName = "seats")
 data class SeatItem(
     @PrimaryKey val seatId: String,
-    val venue: String = "मुख्य पंडाल",
+    val venue: String = "प्रथम जोन",
     val section: String, // "Section A", "Section B"
     val row: String,     // "A1", "A2", "B1"...
     val seatNumber: String, // "A1-01"
