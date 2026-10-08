@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Sacred Kalash Base & Waters (Centered in 66dp zone: X: 21 to 87, Y: 21 to 87) -->
+    
+    <!-- Holy River Waves below Kalash -->
+    <path
+        android:fillColor="#E0F7FA"
+        android:pathData="M34,80 C40,78 48,82 54,80 C60,78 68,82 74,80 C74,83 68,85 54,85 C40,85 34,83 34,80 Z" />
+    <path
+        android:fillColor="#80DEEA"
+        android:pathData="M38,82 C44,81 50,83 54,82 C58,81 64,83 70,82 C70,84 64,85 54,85 C44,85 38,84 38,82 Z" />
+
+    <!-- Kalash Pedestal -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M44,76 L64,76 L61,79 L47,79 Z" />
+
+    <!-- Kalash Pot Body (Golden Sacred Vessel) -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M54,52 C42,52 38,62 42,72 C44,75 64,75 66,72 C70,62 66,52 54,52 Z" />
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M54,55 C46,55 42,63 45,71 C47,73 61,73 63,71 C66,63 62,55 54,55 Z" />
+
+    <!-- Sacred Kalash Neck & Rim -->
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M46,50 L62,50 L64,53 L44,53 Z" />
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M43,47 L65,47 L64,50 L44,50 Z" />
+
+    <!-- Mango Leaves (Amra Pallav) spreading from Kalash -->
+    <!-- Left Leaf -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M45,48 C37,42 33,35 34,29 C38,34 44,42 47,48 Z" />
+    <!-- Center-Left Leaf -->
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M48,47 C43,39 42,32 46,26 C48,32 51,41 51,47 Z" />
+    <!-- Center-Right Leaf -->
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M60,47 C65,39 66,32 62,26 C60,32 57,41 57,47 Z" />
+    <!-- Right Leaf -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M63,48 C71,42 75,35 74,29 C70,34 64,42 61,48 Z" />
+
+    <!-- Sacred Coconut (Shripal) -->
+    <path
+        android:fillColor="#6D4C41"
+        android:pathData="M54,34 C49,34 46,39 47,46 L61,46 C62,39 59,34 54,34 Z" />
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M54,36 C51,36 49,40 50,45 L58,45 C59,40 57,36 54,36 Z" />
+
+    <!-- Auspicious Diya / Flame on top -->
+    <path
+        android:fillColor="#FF6D00"
+        android:pathData="M54,23 C50,27 50,30 54,33 C58,30 58,27 54,23 Z" />
+    <path
+        android:fillColor="#FFD600"
+        android:pathData="M54,26 C52,28 52,30 54,32 C56,30 56,28 54,26 Z" />
+
+    <!-- Auspicious Tilak / Red Sacred Mark on Kalash -->
+    <path
+        android:fillColor="#D50000"
+        android:pathData="M52,58 H56 V67 H52 Z" />
+    <path
+        android:fillColor="#D50000"
+        android:pathData="M48,61 H60 V64 H48 Z" />
+</vector>

@@ -1,0 +1,201 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Divine Halo Background Gradient -->
+    <path
+        android:pathData="M100,10 A90,90 0 1 0 100,190 A90,90 0 1 0 100,10 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="100"
+                android:centerY="100"
+                android:gradientRadius="90"
+                android:type="radial">
+                <item android:color="#FFFFF3E0" android:offset="0.0" />
+                <item android:color="#FFFFE0B2" android:offset="0.6" />
+                <item android:color="#FFFFCC80" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Golden Aura Rays Circle -->
+    <path
+        android:pathData="M100,20 A80,80 0 1 0 100,180 A80,80 0 1 0 100,20 Z"
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFA000"
+        android:strokeAlpha="0.4" />
+
+    <!-- Sacred Golden Halo (Tejovritta) behind Head -->
+    <path
+        android:pathData="M100,32 A42,42 0 1 0 100,116 A42,42 0 1 0 100,32 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="100"
+                android:centerY="74"
+                android:gradientRadius="42"
+                android:type="radial">
+                <item android:color="#FFFFEE58" android:offset="0.0" />
+                <item android:color="#FFFFCA28" android:offset="0.7" />
+                <item android:color="#FFFFA000" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- River Narmada cartoon water ripples -->
+    <path
+        android:pathData="M10,148 Q55,138 100,148 T190,148 L190,190 L10,190 Z"
+        android:fillColor="#4FC3F7"
+        android:fillAlpha="0.85" />
+    <path
+        android:pathData="M10,162 Q55,152 100,162 T190,162 L190,190 L10,190 Z"
+        android:fillColor="#0288D1"
+        android:fillAlpha="0.9" />
+
+    <!-- Cartoon Pink Lotus (Kamalasan) Petals -->
+    <path
+        android:pathData="M100,150 C75,150 55,138 52,126 C68,126 84,136 100,144 C116,136 132,126 148,126 C145,138 125,150 100,150 Z"
+        android:fillColor="#F06292" />
+    <!-- Center Lotus Petals -->
+    <path
+        android:pathData="M70,144 C80,126 95,120 100,116 C105,120 120,126 130,144 C115,148 85,148 70,144 Z"
+        android:fillColor="#EC407A" />
+    <path
+        android:pathData="M85,145 C92,130 98,124 100,120 C102,124 108,130 115,145 Z"
+        android:fillColor="#F48FB1" />
+
+    <!-- Maa Narmada Sari / Body (Vibrant Red-Saffron) -->
+    <path
+        android:pathData="M72,132 C72,112 85,104 100,104 C115,104 128,112 128,132 C120,138 80,138 72,132 Z"
+        android:fillColor="#E64A19" />
+    <path
+        android:pathData="M86,104 L100,126 L114,104 Z"
+        android:fillColor="#FF7043" />
+
+    <!-- Golden Borders & Chunri Draping -->
+    <path
+        android:pathData="M64,96 C64,74 76,58 100,58 C124,58 136,74 136,96 C136,118 128,134 128,134 L122,128 C122,110 126,82 100,82 C74,82 78,110 78,128 L72,134 C72,134 64,118 64,96 Z"
+        android:fillColor="#D84315" />
+    <path
+        android:pathData="M64,96 C64,74 76,58 100,58 C124,58 136,74 136,96"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFD54F" />
+
+    <!-- Cute Cartoon Face (Chibi / Soft Skin Tone) -->
+    <path
+        android:pathData="M82,78 C82,64 90,56 100,56 C110,56 118,64 118,78 C118,90 110,98 100,98 C90,98 82,90 82,78 Z"
+        android:fillColor="#FFE0B2" />
+
+    <!-- Rosy Cartoon Cheeks -->
+    <path
+        android:pathData="M85,82 A4,3 0 1 0 85,88 A4,3 0 1 0 85,82 Z"
+        android:fillColor="#FF8A80"
+        android:fillAlpha="0.75" />
+    <path
+        android:pathData="M115,82 A4,3 0 1 0 115,88 A4,3 0 1 0 115,82 Z"
+        android:fillColor="#FF8A80"
+        android:fillAlpha="0.75" />
+
+    <!-- Big Expressive Cartoon Eyes -->
+    <!-- Left Eye -->
+    <path
+        android:pathData="M88,74 A4,5.5 0 1 0 88,85 A4,5.5 0 1 0 88,74 Z"
+        android:fillColor="#263238" />
+    <path
+        android:pathData="M87,76 A1.5,2 0 1 0 87,80 A1.5,2 0 1 0 87,76 Z"
+        android:fillColor="#FFFFFF" />
+    <!-- Right Eye -->
+    <path
+        android:pathData="M112,74 A4,5.5 0 1 0 112,85 A4,5.5 0 1 0 112,74 Z"
+        android:fillColor="#263238" />
+    <path
+        android:pathData="M111,76 A1.5,2 0 1 0 111,80 A1.5,2 0 1 0 111,76 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Gentle Cartoon Smile -->
+    <path
+        android:pathData="M96,87 Q100,91 104,87"
+        android:strokeWidth="1.8"
+        android:strokeColor="#C2185B"
+        android:strokeLineCap="round" />
+
+    <!-- Auspicious Bindi & Tilak -->
+    <path
+        android:pathData="M100,67 A2.2,2.2 0 1 0 100,71.4 A2.2,2.2 0 1 0 100,67 Z"
+        android:fillColor="#D50000" />
+    <path
+        android:pathData="M100,62 L100,66"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFD600" />
+
+    <!-- Cute Golden Crown (Mukut) with Jewels -->
+    <path
+        android:pathData="M82,60 L85,42 L94,52 L100,36 L106,52 L115,42 L118,60 Z"
+        android:fillColor="#FFC107" />
+    <path
+        android:pathData="M82,60 L85,42 L94,52 L100,36 L106,52 L115,42 L118,60 Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFA000" />
+    <!-- Crown Ruby Gem -->
+    <path
+        android:pathData="M100,44 A2.5,2.5 0 1 0 100,49 A2.5,2.5 0 1 0 100,44 Z"
+        android:fillColor="#D50000" />
+    <!-- Crown Emeralds -->
+    <path
+        android:pathData="M92,50 A1.5,1.5 0 1 0 92,53 A1.5,1.5 0 1 0 92,50 Z"
+        android:fillColor="#00C853" />
+    <path
+        android:pathData="M108,50 A1.5,1.5 0 1 0 108,53 A1.5,1.5 0 1 0 108,50 Z"
+        android:fillColor="#00C853" />
+
+    <!-- Crown Base Band -->
+    <path
+        android:pathData="M81,59 Q100,62 119,59 L119,63 Q100,66 81,63 Z"
+        android:fillColor="#FFD54F" />
+
+    <!-- Golden Necklace & Pearls -->
+    <path
+        android:pathData="M88,100 Q100,108 112,100"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFC107"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M92,105 Q100,113 108,105"
+        android:strokeWidth="2"
+        android:strokeColor="#FFD54F"
+        android:strokeLineCap="round" />
+
+    <!-- Lotus in Hand (Left/Right) -->
+    <path
+        android:pathData="M66,112 C62,104 64,98 70,102 C74,98 78,104 74,112 Z"
+        android:fillColor="#F48FB1" />
+    <path
+        android:pathData="M68,112 L68,124"
+        android:strokeWidth="2"
+        android:strokeColor="#4CAF50" />
+
+    <!-- Floating Diya (Deepam) on Holy River -->
+    <path
+        android:pathData="M142,168 C142,175 162,175 162,168 Z"
+        android:fillColor="#8D6E63" />
+    <!-- Diya Flame -->
+    <path
+        android:pathData="M152,166 C148,160 152,154 152,152 C152,154 156,160 152,166 Z"
+        android:fillColor="#FFD600" />
+    <path
+        android:pathData="M152,165 C150,161 152,157 152,155 C152,157 154,161 152,165 Z"
+        android:fillColor="#FF6D00" />
+
+    <!-- Auspicious Water Splash Dots / Stars -->
+    <path
+        android:pathData="M35,160 A2,2 0 1 0 35,164 A2,2 0 1 0 35,160 Z"
+        android:fillColor="#E0F7FA" />
+    <path
+        android:pathData="M48,172 A2.5,2.5 0 1 0 48,177 A2.5,2.5 0 1 0 48,172 Z"
+        android:fillColor="#B2EBF2" />
+    <path
+        android:pathData="M178,162 A2,2 0 1 0 178,166 A2,2 0 1 0 178,162 Z"
+        android:fillColor="#E0F7FA" />
+</vector>
