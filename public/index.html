@@ -518,7 +518,7 @@
       <button class="nav-btn" onclick="switchTab('verify')">🔍 ई-पास सत्यापन</button>
       <button class="nav-btn" onclick="switchTab('schedule')">📅 कार्यक्रम विवरण</button>
       <button class="nav-btn" onclick="switchTab('download')">📱 Android ऐप</button>
-      <button class="nav-btn" onclick="openAdminModal()">🔐 एडमिन</button>
+      <button class="nav-btn" onclick="goToAdmin()">🔐 एडमिन</button>
     </div>
   </nav>
 
@@ -574,9 +574,44 @@
         </div>
       </div>
 
-    
-      <div class="netlify-deploy-guide">
-        <h3 style="color:#2E7D32; font-weight:800; display:flex; align-items:center; gap:8px;">
+      <!-- Quick Action Cards directly on Home for complete visibility -->
+      <div class="card" style="margin-top: 20px;">
+        <div class="card-header">
+          <span style="font-size:28px">🔱</span>
+          <div>
+            <div class="card-title rozha">महोत्सव प्रमुख सेवाएं एवं सीधे लिंक</div>
+            <div style="font-size:13px; color:#795548;">सभी विवरण देखने हेतु किसी भी विकल्प पर क्लिक करें</div>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px;">
+          <div class="stat-box" style="cursor: pointer; text-align: left; background: #FFF3E0; border: 1px solid #FFE0B2;" onclick="switchTab('chunri')">
+            <div style="font-size: 18px; font-weight: 800; color: #BF360C; margin-bottom: 6px;">🚩 255 मी. चुनरी पदयात्रा</div>
+            <div style="font-size: 13px; color: #5D4037;">पदयात्रा मार्ग, रात्रि विश्राम एवं पड़ाव की संपूर्ण जानकारी देखें →</div>
+          </div>
+          <div class="stat-box" style="cursor: pointer; text-align: left; background: #FFF8E1; border: 1px solid #FFE082;" onclick="switchTab('register')">
+            <div style="font-size: 18px; font-weight: 800; color: #E65100; margin-bottom: 6px;">📝 भक्त पंजीयन (फोटो सहित)</div>
+            <div style="font-size: 13px; color: #5D4037;">फोटो अपलोड कर निःशुल्क डिजिटल ई-पास तुरंत बनाएं →</div>
+          </div>
+          <div class="stat-box" style="cursor: pointer; text-align: left; background: #E8F5E9; border: 1px solid #C8E6C9;" onclick="switchTab('verify')">
+            <div style="font-size: 18px; font-weight: 800; color: #2E7D32; margin-bottom: 6px;">🔍 ई-पास सत्यापन</div>
+            <div style="font-size: 13px; color: #5D4037;">मोबाइल नंबर या पास आईडी से अपना पास खोजें व प्रिंट करें →</div>
+          </div>
+          <div class="stat-box" style="cursor: pointer; text-align: left; background: #E1F5FE; border: 1px solid #B3E5FC;" onclick="switchTab('schedule')">
+            <div style="font-size: 18px; font-weight: 800; color: #0277BD; margin-bottom: 6px;">📅 महोत्सव कार्यक्रम</div>
+            <div style="font-size: 13px; color: #5D4037;">मंगला आरती, 255 मी. चुनरी अर्पण एवं महाप्रसाद की समय सारिणी →</div>
+          </div>
+          <div class="stat-box" style="cursor: pointer; text-align: left; background: #F3E5F5; border: 1px solid #E1BEE7;" onclick="switchTab('download')">
+            <div style="font-size: 18px; font-weight: 800; color: #7B1FA2; margin-bottom: 6px;">📱 Android मोबाइल ऐप</div>
+            <div style="font-size: 13px; color: #5D4037;">ऑफलाइन पास और सभी सुविधाओं के लिए ऐप इंस्टॉल करें →</div>
+          </div>
+          <div class="stat-box" style="text-align: left; background: #FFFDE7; border: 1px solid #FFF59D;">
+            <div style="font-size: 18px; font-weight: 800; color: #F57F17; margin-bottom: 6px;">📍 मुख्य कार्यालय व संपर्क</div>
+            <div style="font-size: 13px; color: #5D4037;">सांकला माता मंदिर, तारादेही, तेंदूखेड़ा (दमोह) • मो. 7440771076</div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- TAB 2: CHUNRI YATRA (255 METER) -->
     <div id="tab-chunri" class="tab-section">
@@ -750,6 +785,8 @@
             <strong>भव्य आरती एवं नर्मदा स्तुति:</strong> शंखनाद, वैदिक मंत्रोच्चार के साथ घर के लिए प्रस्थान।
           </div>
         </div>
+      </div>
+    </div>
 
     <!-- TAB 6: ANDROID APP DOWNLOAD -->
     <div id="tab-download" class="tab-section">
@@ -765,6 +802,33 @@
             ⬇️ डाउनलोड Android APK (Direct)
           </a>
           <span style="font-size:12px; color:#795548;">वर्जन 2.0 • सुरक्षित एवं सत्यापित • ऑफ़लाइन समर्थित</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 7: ADMIN DASHBOARD -->
+    <div id="tab-admin" class="tab-section">
+      <div class="card">
+        <div class="card-header">
+          <span style="font-size:28px">🔐</span>
+          <div>
+            <div class="card-title rozha">व्यवस्थापक पोर्टल (Admin Dashboard)</div>
+            <div style="font-size:13px; color:#795548;">पंजीकृत भक्तों की सूची, प्रबंधन एवं डेटा डाउनलोड</div>
+          </div>
+        </div>
+
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin-bottom:16px;">
+          <div style="font-weight:bold; color:var(--primary); font-size:16px;">
+            कुल पंजीकृत भक्त: <span id="adminTotalCount" style="font-size:22px; color:#BF360C; font-weight:900;">0</span>
+          </div>
+          <div style="display:flex; gap:8px;">
+            <button class="btn btn-primary" style="padding:8px 16px; font-size:13px;" onclick="renderAdminDevotees()">🔄 रिफ्रेश करें</button>
+            <button class="btn btn-outline" style="padding:8px 16px; font-size:13px;" onclick="exportDevoteesCSV()">📥 CSV डाउनलोड करें</button>
+          </div>
+        </div>
+
+        <div id="adminTableContainer" style="overflow-x:auto;">
+          <!-- Table populated dynamically by JavaScript -->
         </div>
       </div>
     </div>
@@ -906,7 +970,18 @@
       }
     }
 
-    // Admin Modal Handling (Hidden credentials, secure login)
+    // Admin Modal Handling & Secure Dashboard
+    let isAdminLoggedIn = false;
+
+    function goToAdmin() {
+      if (isAdminLoggedIn) {
+        switchTab('admin');
+        renderAdminDevotees();
+      } else {
+        openAdminModal();
+      }
+    }
+
     function openAdminModal() {
       document.getElementById('adminModal').classList.add('active');
     }
@@ -919,11 +994,88 @@
       const u = document.getElementById('adminUser').value.trim();
       const p = document.getElementById('adminPass').value.trim();
       if (u === 'admin' && p === 'narmada2027') {
-        alert('लॉगिन सफल! एडमिन डैशबोर्ड एक्सेस उपलब्ध है।');
+        isAdminLoggedIn = true;
         closeAdminModal();
+        switchTab('admin');
+        renderAdminDevotees();
+        alert('लॉगिन सफल! एडमिन डैशबोर्ड खुला है।');
       } else {
         alert('अमान्य क्रेडेंशियल्स! केवल अधिकृत व्यवस्थापकों को अनुमति है।');
       }
+    }
+
+    function renderAdminDevotees() {
+      const list = JSON.parse(localStorage.getItem('narmada_devotees') || '[]');
+      const countEl = document.getElementById('adminTotalCount');
+      if (countEl) countEl.innerText = list.length;
+
+      const container = document.getElementById('adminTableContainer');
+      if (!container) return;
+
+      if (list.length === 0) {
+        container.innerHTML = '<div style="padding:20px; text-align:center; color:#795548; background:#FFF8E1; border-radius:8px;">अभी तक कोई नया भक्त पंजीयन दर्ज नहीं हुआ है।</div>';
+        return;
+      }
+
+      container.innerHTML = `
+        <table style="width:100%; border-collapse:collapse; min-width:600px; font-size:14px;">
+          <thead>
+            <tr style="background:#FFF3E0; color:#BF360C; border-bottom:2px solid #FFE0B2; text-align:left;">
+              <th style="padding:10px 8px;">फोटो</th>
+              <th style="padding:10px 8px;">पास आईडी</th>
+              <th style="padding:10px 8px;">भक्त का नाम</th>
+              <th style="padding:10px 8px;">मोबाइल</th>
+              <th style="padding:10px 8px;">स्थान</th>
+              <th style="padding:10px 8px;">श्रेणी</th>
+              <th style="padding:10px 8px;">तिथि</th>
+              <th style="padding:10px 8px;">कार्य</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${list.map((d, index) => `
+              <tr style="border-bottom:1px solid #FFE0B2;">
+                <td style="padding:8px;"><img src="${d.photo}" class="dp-circle" style="width:36px; height:36px;" alt="DP"></td>
+                <td style="padding:8px; font-weight:bold; color:#BF360C;">#${d.id}</td>
+                <td style="padding:8px; font-weight:700;">${d.name}</td>
+                <td style="padding:8px;">${d.phone}</td>
+                <td style="padding:8px;">${d.city}</td>
+                <td style="padding:8px;"><span class="pass-badge" style="font-size:11px; padding:3px 8px;">${d.category}</span></td>
+                <td style="padding:8px; font-size:12px; color:#795548;">${d.date}</td>
+                <td style="padding:8px;">
+                  <button style="background:#D32F2F; color:white; border:none; border-radius:4px; padding:4px 8px; font-size:12px; cursor:pointer;" onclick="deleteDevotee(${index})">हटाएं</button>
+                </td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      `;
+    }
+
+    function deleteDevotee(index) {
+      if (!confirm('क्या आप सचमुच यह पंजीयन रिकॉर्ड हटाना चाहते हैं?')) return;
+      let list = JSON.parse(localStorage.getItem('narmada_devotees') || '[]');
+      list.splice(index, 1);
+      localStorage.setItem('narmada_devotees', JSON.stringify(list));
+      renderAdminDevotees();
+    }
+
+    function exportDevoteesCSV() {
+      const list = JSON.parse(localStorage.getItem('narmada_devotees') || '[]');
+      if (list.length === 0) {
+        alert('डाउनलोड हेतु कोई पंजीयन डेटा उपलब्ध नहीं है।');
+        return;
+      }
+      let csvContent = "data:text/csv;charset=utf-8,Pass ID,Name,Phone,City,Category,Date\n";
+      list.forEach(d => {
+        csvContent += `"${d.id}","${d.name}","${d.phone}","${d.city}","${d.category}","${d.date}"\n`;
+      });
+      const encodedUri = encodeURI(csvContent);
+      const link = document.createElement("a");
+      link.setAttribute("href", encodedUri);
+      link.setAttribute("download", "narmada_devotees_2027.csv");
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
     }
   </script>
 </body>
